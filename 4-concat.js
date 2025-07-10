@@ -1,15 +1,17 @@
 const {argv} = require("process");
 
-// console.log(argv);
+console.log(`${argv[2]} is ${argv[3]}`);
 
-const arr = []
+// // console.log(argv);
 
-// let i;
+// const arr = []
 
-for(i = 2; i < argv.length; i++) {
-  arr.push(argv[i]);
-}
+// // let i;
 
-// console.log(arr);
+// for(i = 2; i < argv.length; i++) {
+//   arr.push(argv[i]);
+// }
 
-console.log(arr.join(" is "));
+// // console.log(arr);
+
+// console.log(arr.join(" is "));
