@@ -8,6 +8,6 @@
 // console.log(`${c}`);
 
 
-message = "C is fun\nPython is cool\nJavascript is amazing";
+const message = "C is fun\nPython is cool\nJavascript is amazing";
 
-console.log(message);
+console.log(`${message}`);
