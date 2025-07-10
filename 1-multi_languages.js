@@ -11,4 +11,3 @@
 const message = "C is fun\nPython is cool\nJavascript is amazing";
 
 console.log(`${message}`);
-console.error("[Anything]");
