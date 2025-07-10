@@ -10,7 +10,7 @@ const checkArgs = (arr) => {
 
 const {argv}= require('node:process');
 
-console.log(argv);
+// console.log(argv);
 
 checkArgs(argv);
 
