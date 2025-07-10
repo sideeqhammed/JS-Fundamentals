@@ -1,22 +1,32 @@
-checkArgs = (arr) => {
-  if (arr.length >= 2) {
-  console.log("Arguments found")
-} else if (arr.length == 1) {
-  console.log("Argument found");
-} else console.log("No argument");
+const checkArgs = (arr) => {
+  const actualArr = arr.length - 2;
+  if (actualArr>= 2) {
+    console.log("Arguments found")
+  } else if (actualArr == 1) {
+    console.log("Argument found");
+  } else console.log("No argument");
 }
 
 
-let arr = ["cat", "dog", "sheep"];
+const {argv}= require('node:process');
 
-checkArgs(arr);
+console.log(argv);
+
+checkArgs(argv);
+
+// argv.forEach(value => {
+//   console.log(`${value}`)
+// });
 
 
-arr = ["cat"];
-
-checkArgs(arr);
+// checkArgs(arr);
 
 
-arr = [];
+// arr = ["cat"];
 
-checkArgs(arr);
+// checkArgs(arr);
+
+
+// arr = [];
+
+// checkArgs(arr);
