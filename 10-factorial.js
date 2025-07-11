@@ -9,6 +9,8 @@ factorial = function(number) {
   console.log(j);
 }
 
-if (!argv[2]) {
+const arg = Number(argv[2])
+
+if (!arg) {
   console.log(1);
-} else factorial(Number(argv[2]));
+} else factorial(arg);
