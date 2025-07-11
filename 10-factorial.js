@@ -2,7 +2,7 @@ const { argv } = require("process");
 
 let j = 1;
 
-factorial = number => {
+factorial = function(number) {
   for (i = number; i > 0; i--) {
     j = j * i;
   }
