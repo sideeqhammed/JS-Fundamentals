@@ -1,4 +1,4 @@
-const {argv} = require("process");
+const {argv} = require("node:process");
 
 if(argv[2]) {
   console.log(`${argv[2]}`)

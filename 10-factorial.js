@@ -1,4 +1,4 @@
-const { argv } = require("process");
+const { argv } = require("node:process");
 
 let j = 1;
 

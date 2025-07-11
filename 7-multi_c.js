@@ -1,4 +1,4 @@
-const {argv} = require("process");
+const {argv} = require("node:process");
 
 const repeat = Number(argv[2]);
 
