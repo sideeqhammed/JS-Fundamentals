@@ -6,7 +6,7 @@ let a = "";
 
 if (repeat) {
   for (i = 0; i < repeat; i++) {
-    a += "x";
+    a += "X";
   }
   for (j = 0; j < repeat; j++) {
     console.log(a);
