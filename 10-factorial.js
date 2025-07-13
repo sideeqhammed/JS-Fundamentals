@@ -1,16 +1,17 @@
 const { argv } = require("node:process");
 
-let j = 1;
+const number = Number(argv[2]);
 
-factorial = function(number) {
-  for (i = number; i > 0; i--) {
-    j = j * i;
-  }
-  console.log(j);
+
+
+const factorial = function (number) {
+  if (!number) return(1);
+
+  return number * factorial(number - 1);
 }
 
-const arg = Number(argv[2])
+// const result = factorial(number);
 
-if (!arg) {
-  console.log(1);
-} else factorial(arg);
+
+result = factorial(number);
+console.log(result);
